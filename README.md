@@ -27,8 +27,8 @@ This project aims to provide a small embedded solution that:
 
 - **MCU Board:** Raayan Mini – STM32F401RBT6 (LQFP64)  
 - **Display:** 16x2 HD44780-compatible monochrome LCD (4-bit mode)  
-- **RTC:** DS1307/DS3231 over I²C (device address `0x68`) for time & date  
-- **EEPROM/FRAM:** I²C (device address `0x50`) to store time slots and volume  
+- **RTC:** DS1307 over I²C (device address `0x68`) for time & date  
+- **EEPROM:** I²C (device address `0x50`) to store time slots and volume  
 - **Sensors:** Magnetic / limit sensors for gate position and entry/exit detection  
 - **Buttons:** 3 push buttons for configuration (increment, decrement, next)  
 - **Status LEDs:** Red / Green for basic status indication  
