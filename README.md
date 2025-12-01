@@ -86,10 +86,12 @@ RTC (`0x68`) and EEPROM (`0x50`) share the same **I²C bus** of the STM32F4.
 
 ## 🛠 Build & Run (Keil µVision)
 
-1. Open the `.uvprojx` project file in **Keil µVision 5**.  
-2. Select device **STM32F401RBTx** and make sure required Keil Packs are installed.  
-3. Build the project to generate the firmware image.  
-4. Flash the firmware to the **Raayan Mini** board using ST-Link / SWD.  
+1. Download the repository as .zip
+2. Extract the .zip file. 
+3. Open the `.uvprojx` project file in **Keil µVision 5**.  
+4. Select device **STM32F401RBTx** and make sure required Keil Packs are installed.  
+5. Build the project to generate the firmware image.  
+6. Flash the firmware to the **Raayan Mini** board using ST-Link / SWD.  
 
 On reset, the system shows a **Gate Monitoring** welcome message, then displays **time and date**, and automatically handles **greetings, counting and gate closing support** when the sensors detect entry or exit.
 
